@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_marginTop="10dp">
+
+	<TextView
+		android:id="@+id/spaci1"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/texview1"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="Digite la Nota del 15%"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/spaci12"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<EditText
+		android:id="@+id/editn15"
+		android:layout_width="120dp"
+		android:layout_height="45dp"
+		android:text=""
+		android:inputType="numberDecimal"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/spaci13"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/editex20"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="Digite la Nota del 20%"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/spaci123"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<EditText
+		android:id="@+id/editn20"
+		android:layout_width="120dp"
+		android:layout_height="45dp"
+		android:text=""
+		android:inputType="numberDecimal"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/spaci1233"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/bottondeg"
+		android:layout_width="180dp"
+		android:layout_height="70dp"
+		android:text="Guardar Nota"
+		android:onClick="scarn"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textAllCaps="false"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/button_background"/>
+
+	<TextView
+		android:id="@+id/spaci12333"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/s3"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="La Nota es:"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/textnota"
+		android:layout_width="35dp"
+		android:layout_height="25dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/sp33"
+		android:layout_width="match_parent"
+		android:layout_height="5dp"
+		android:text=""
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/butte"
+		android:layout_width="135dp"
+		android:layout_height="50dp"
+		android:text="Atras"
+		android:onClick="bott"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textAllCaps="false"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/button_background"/>
+
+</LinearLayout>
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="15dp"
+	android:layout_marginRight="15dp"
+	android:layout_marginBottom="15dp"
+	android:orientation="vertical"
+	tools:context=".promed">
+
+	<TextView
+		android:id="@+id/ttgxe"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:textSize="20sp"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:text="PROMEDIO DEL SEMESTRE"/>
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/activitypromedTextView2"/>
+
+	<TextView
+		android:id="@+id/ttdxgxe"
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10dp"
+		android:text="Materias del Semestre:"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="290dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10dp">
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/recyclerPromedio"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10dp"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/activitypromedTextView1"/>
+
+		<TextView
+			android:id="@+id/txe"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:text="PROMEDIO DEL SEMESTRE"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/txñss"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="Numero de Creditos del Semestre :"/>
+
+			<TextView
+				android:id="@+id/credinmt"
+				android:layout_width="80dp"
+				android:layout_height="55dp"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:text="00"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/tnxPro"
+				android:layout_width="95dp"
+				android:layout_height="40dp"
+				android:text="Promedio del Semestre :"/>
+
+			<TextView
+				android:id="@+id/promeetSme"
+				android:layout_width="80dp"
+				android:layout_height="23dp"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:text="0.00"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

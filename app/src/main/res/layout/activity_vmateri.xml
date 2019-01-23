@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"
+	android:layout_marginTop="10dp"
+	android:layout_marginBottom="10dp"
+	android:background="@drawable/braarown">
+
+	<TextView
+		android:layout_height="25dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/activityvmateriTextView2"/>
+
+	<TextView
+		android:id="@+id/txtm"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:text="TexView"
+		android:textSize="27sp"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:textColor="#FFFFFF"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="28dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="horizontal">
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spc1"
+			android:layout_width="10dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/texview1"
+			android:layout_width="80dp"
+			android:layout_height="40dp"
+			android:text="Promedio"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/ns3pa"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/notadep"
+			android:layout_width="40dp"
+			android:layout_height="20dp"
+			android:text="0.000000000"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/nspa"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/spce1"
+			android:layout_width="15dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/texvCw1"
+			android:layout_width="80dp"
+			android:layout_height="40dp"
+			android:text="Numero de Creditos"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/Credito12"
+			android:layout_width="80dp"
+			android:layout_height="40dp"
+			android:text="0"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spc12"
+			android:layout_width="10dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/txtvi1"
+			android:layout_width="80dp"
+			android:layout_height="40dp"
+			android:text="Nota del Primer Corte"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/nomyNp"
+			android:layout_width="25dp"
+			android:layout_height="20dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/notadeNp"
+			android:layout_width="30dp"
+			android:layout_height="20dp"
+			android:text="0.0000000"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/nomeeyNp"
+			android:layout_width="39dp"
+			android:layout_height="25dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<Button
+			android:id="@+id/botoactu"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:onClick="reci"
+			android:layout_gravity="center_horizontal"
+			android:textSize="17sp"
+			android:textAllCaps="false"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/button_background"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spc13"
+			android:layout_width="10dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/txtvi2"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:text="Nota del Segundo Corte"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/nofsNp"
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/notadeNs"
+			android:layout_width="30dp"
+			android:layout_height="20dp"
+			android:text="0.000000"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spc14"
+			android:layout_width="10dp"
+			android:layout_height="40dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/txtvi3"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:text="Nota del                    Tercer Corte"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:id="@+id/ndNp"
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<TextView
+			android:id="@+id/notadeNt"
+			android:layout_width="30dp"
+			android:layout_height="20dp"
+			android:text="0.0000000000"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="horizontal">
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spcio"
+			android:layout_width="25dp"
+			android:layout_height="80dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"/>
+
+		<Button
+			android:id="@+id/bottondpm"
+			android:layout_width="160dp"
+			android:layout_height="85dp"
+			android:text="Digite la Nota del Primer Corte"
+			android:layout_gravity="center_horizontal"
+			android:textSize="17sp"
+			android:textAllCaps="false"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/bbutton"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="25dp"
+			android:id="@+id/activityvmateriTextView1"/>
+
+		<Button
+			android:id="@+id/bottondsm"
+			android:layout_width="160dp"
+			android:layout_height="85dp"
+			android:onClick="segunrt"
+			android:text="Digite la Nota del Segundo Corte"
+			android:layout_gravity="center_horizontal"
+			android:textSize="17sp"
+			android:textAllCaps="false"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/bbutton"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="25dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/activityvmateriTextView3"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/spcio1"
+			android:layout_height="80dp"
+			android:text=""
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="25dp"/>
+
+		<Button
+			android:id="@+id/bottondtm"
+			android:layout_width="160dp"
+			android:layout_height="85dp"
+			android:onClick="teer"
+			android:text="Digite la Nota del Tercer Corte"
+			android:layout_gravity="center_horizontal"
+			android:textSize="17sp"
+			android:textAllCaps="false"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/bbutton"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="25dp"/>
+
+		<Button
+			android:id="@+id/bottoelimi"
+			android:layout_width="160dp"
+			android:layout_height="85dp"
+			android:text="Eliminar Materia"
+			android:onClick="elimin"
+			android:layout_gravity="center_horizontal"
+			android:textSize="17sp"
+			android:textAllCaps="false"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/bbutton"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

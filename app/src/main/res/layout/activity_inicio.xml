@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="89dp"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/activityinicioTextView1"/>
+
+	<ImageView
+		android:id="@+id/imgecd"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="250dp"
+		android:layout_height="250dp"
+		android:src="@mipmap/ic_launcher"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="230dp"
+		android:id="@+id/activityinicioTextView2"
+		android:layout_gravity="center_horizontal"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/app_name"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/activityinicioTextView3"
+		android:textSize="19sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:id="@+id/activityinicioTextView4"
+		android:layout_gravity="center_horizontal"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="V 3.0"
+		android:id="@+id/activityinicioTextView5"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+

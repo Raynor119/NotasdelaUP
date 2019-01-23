@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/textw"
+		android:layout_width="300dp"
+		android:layout_height="100dp"
+		android:layout_gravity="center_horizontal"
+		android:text="Seleccione una de las Siguientes Opciones"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/espacio001"
+		android:layout_width="300dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center_horizontal"
+		android:text=""
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/botton01"
+		android:layout_width="220dp"
+		android:layout_height="75dp"
+		android:text="Ver Materias"
+		android:textSize="19sp"
+		android:textAllCaps="false"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/button_background"
+		android:layout_gravity="center_horizontal"
+		android:onClick="most"/>
+
+	<TextView
+		android:id="@+id/espacio01"
+		android:layout_width="300dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center_horizontal"
+		android:text=""
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/botton02"
+		android:layout_width="220dp"
+		android:layout_height="75dp"
+		android:background="@drawable/button_background"
+		android:textSize="19sp"
+		android:textAllCaps="false"
+		android:textColor="#FFFFFF"
+		android:onClick="digit"
+		android:layout_gravity="center_horizontal"
+		android:text="Digitar Materias"/>
+
+	<TextView
+		android:id="@+id/espacio02"
+		android:layout_width="300dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center_horizontal"
+		android:text=""
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/botton03"
+		android:layout_width="220dp"
+		android:layout_height="75dp"
+		android:background="@drawable/button_background"
+		android:textSize="19sp"
+		android:textAllCaps="false"
+		android:onClick="pormeed"
+		android:layout_gravity="center_horizontal"
+		android:text="Promedio del   Semestre"
+		android:textColor="#FFFFFF"/>
+
+	<TextView
+		android:id="@+id/espacio03"
+		android:layout_width="300dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center_horizontal"
+		android:text=""
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/botton04"
+		android:layout_width="220dp"
+		android:layout_height="75dp"
+		android:background="@drawable/button_background"
+		android:text="salir"
+		android:textSize="19sp"
+		android:textAllCaps="false"
+		android:textColor="#FFFFFF"
+		android:layout_gravity="center_horizontal"
+		android:onClick="sali"/>
+
+</LinearLayout>
+
