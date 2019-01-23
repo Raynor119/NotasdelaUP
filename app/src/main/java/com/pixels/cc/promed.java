@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.*;
 
 public class promed extends Activity {
-	TextView creditos;
+	TextView creditos,notase;
 	private RecyclerView reciclemateria;
 	private  recyprom adaptadormateria;
 	int credit;
@@ -28,28 +28,38 @@ public class promed extends Activity {
 	  Bas = new basededatos(getApplicationContext());
 	  buscar = new promm();
 	  creditos=(TextView)findViewById(R.id.credinmt);
+	  notase=(TextView)findViewById(R.id.promeetSme);
 	  reciclemateria=(RecyclerView)findViewById(R.id.recyclerPromedio);
 	  reciclemateria.setLayoutManager(new LinearLayoutManager(this));
 	  basededatos basede=new basededatos(getApplicationContext());
 	  adaptadormateria =new recyprom(basede.obtenermete());
 	  int i=0;
 	  credit=0;
-	  int cedito;
+	  int cedito=0;
 	 cantidm bat=new cantidm(getApplicationContext());
 	 
 	 capmm busca =new capmm();
 	  bat.buscadatos(busca,"M");
 	  
 	  String ttt=busca.getNum();
-	  
+	  int sum=0;
 	   int t1=Integer.parseInt(ttt);
+	   double nta=0;
+	   int cre=0;
+	   double suma=0;
+	   double notsw;
 	  for(i=0;i<t1;i++){
+		  cre=Integer.parseInt(adaptadormateria.promedioLista.get(i).getPromedio());
 		  cedito=Integer.parseInt(adaptadormateria.promedioLista.get(i).getPromedio());
+		  nta = Double.parseDouble(adaptadormateria.promedioLista.get(i).getPromet());
 		  credit=credit+cedito;
+		  suma = suma+(nta*cre);
 	  }
-	  
+	  System.out.println(suma);
+	  notsw=suma/credit;
 	  reciclemateria.setAdapter(adaptadormateria);
 	  creditos.setText(""+credit);
+	  notase.setText(""+notsw);
   }
   
 }
