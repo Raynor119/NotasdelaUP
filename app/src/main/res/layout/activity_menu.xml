@@ -3,20 +3,26 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:orientation="vertical">
+	android:orientation="vertical"
+	android:background="@drawable/braarown"
+	android:layout_marginLeft="3dp"
+	android:layout_marginRight="3dp"
+	android:layout_marginTop="2dp"
+	android:layout_marginBottom="2dp">
 
 	<TextView
 		android:id="@+id/textw"
 		android:layout_width="300dp"
-		android:layout_height="100dp"
+		android:layout_height="74dp"
 		android:layout_gravity="center_horizontal"
 		android:text="Seleccione una de las Siguientes Opciones"
-		android:gravity="center"/>
+		android:gravity="center"
+		android:textColor="#FFFFFF"/>
 
 	<TextView
 		android:id="@+id/espacio001"
 		android:layout_width="300dp"
-		android:layout_height="60dp"
+		android:layout_height="40dp"
 		android:layout_gravity="center_horizontal"
 		android:text=""
 		android:gravity="center"/>
@@ -36,7 +42,7 @@
 	<TextView
 		android:id="@+id/espacio01"
 		android:layout_width="300dp"
-		android:layout_height="60dp"
+		android:layout_height="40dp"
 		android:layout_gravity="center_horizontal"
 		android:text=""
 		android:gravity="center"/>
@@ -56,7 +62,7 @@
 	<TextView
 		android:id="@+id/espacio02"
 		android:layout_width="300dp"
-		android:layout_height="60dp"
+		android:layout_height="40dp"
 		android:layout_gravity="center_horizontal"
 		android:text=""
 		android:gravity="center"/>
@@ -76,7 +82,7 @@
 	<TextView
 		android:id="@+id/espacio03"
 		android:layout_width="300dp"
-		android:layout_height="60dp"
+		android:layout_height="40dp"
 		android:layout_gravity="center_horizontal"
 		android:text=""
 		android:gravity="center"/>

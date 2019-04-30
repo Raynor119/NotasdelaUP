@@ -5,12 +5,13 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:layout_marginLeft="15dp"
-	android:layout_marginTop="15dp"
-	android:layout_marginRight="15dp"
-	android:layout_marginBottom="15dp"
+	android:layout_marginLeft="7dp"
+	android:layout_marginTop="8dp"
+	android:layout_marginRight="7dp"
+	android:layout_marginBottom="8dp"
 	android:orientation="vertical"
-	tools:context=".promed">
+	tools:context=".promed"
+	android:background="@drawable/braarown">
 
 	<TextView
 		android:id="@+id/ttgxe"
@@ -19,7 +20,8 @@
 		android:textSize="20sp"
 		android:layout_gravity="center_horizontal"
 		android:gravity="center"
-		android:text="PROMEDIO DEL SEMESTRE"/>
+		android:text="PROMEDIO DEL SEMESTRE"
+		android:textColor="#FFFFFF"/>
 
 	<TextView
 		android:layout_height="30dp"
@@ -34,11 +36,12 @@
 		android:layout_marginTop="10dp"
 		android:layout_marginRight="10dp"
 		android:layout_marginBottom="10dp"
-		android:text="Materias del Semestre:"/>
+		android:text="Materias del Semestre:"
+		android:textColor="#FFFFFF"/>
 
 	<RelativeLayout
 		android:layout_width="match_parent"
-		android:layout_height="290dp"
+		android:layout_height="179dp"
 		android:layout_marginLeft="10dp"
 		android:layout_marginTop="10dp"
 		android:layout_marginRight="10dp"
@@ -69,7 +72,8 @@
 			android:id="@+id/txe"
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
-			android:text="PROMEDIO DEL SEMESTRE"/>
+			android:text="PROMEDIO DEL SEMESTRE"
+			android:textColor="#FFFFFF"/>
 
 		<LinearLayout
 			android:layout_width="match_parent"
@@ -78,9 +82,10 @@
 
 			<TextView
 				android:id="@+id/txñss"
-				android:layout_width="80dp"
+				android:layout_width="100dp"
 				android:layout_height="80dp"
-				android:text="Numero de Creditos del Semestre :"/>
+				android:text="Numero de Creditos del Semestre :"
+				android:textColor="#FFFFFF"/>
 
 			<TextView
 				android:id="@+id/credinmt"
@@ -88,7 +93,8 @@
 				android:layout_height="55dp"
 				android:layout_gravity="center_horizontal"
 				android:gravity="center"
-				android:text="00"/>
+				android:text="00"
+				android:textColor="#FFFFFF"/>
 
 		</LinearLayout>
 
@@ -100,8 +106,13 @@
 			<TextView
 				android:id="@+id/tnxPro"
 				android:layout_width="95dp"
-				android:layout_height="40dp"
-				android:text="Promedio del Semestre :"/>
+				android:layout_height="wrap_content"
+				android:text="Promedio del Semestre :"
+				android:textColor="#FFFFFF"/>
+
+			<TextView
+				android:layout_height="20dp"
+				android:layout_width="15dp"/>
 
 			<TextView
 				android:id="@+id/promeetSme"
@@ -109,7 +120,8 @@
 				android:layout_height="23dp"
 				android:layout_gravity="center_horizontal"
 				android:gravity="center"
-				android:text="0.00"/>
+				android:text="0.00"
+				android:textColor="#FFFFFF"/>
 
 		</LinearLayout>
 

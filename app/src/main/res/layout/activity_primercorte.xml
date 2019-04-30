@@ -7,14 +7,6 @@
 	android:layout_marginTop="10dp">
 
 	<TextView
-		android:id="@+id/spaci1"
-		android:layout_width="match_parent"
-		android:layout_height="40dp"
-		android:text=""
-		android:layout_gravity="center_horizontal"
-		android:gravity="center"/>
-
-	<TextView
 		android:id="@+id/texview1"
 		android:layout_width="match_parent"
 		android:layout_height="40dp"
@@ -42,7 +34,7 @@
 	<TextView
 		android:id="@+id/spaci13"
 		android:layout_width="match_parent"
-		android:layout_height="40dp"
+		android:layout_height="25dp"
 		android:text=""
 		android:layout_gravity="center_horizontal"
 		android:gravity="center"/>
@@ -75,7 +67,7 @@
 	<TextView
 		android:id="@+id/spaci1233"
 		android:layout_width="match_parent"
-		android:layout_height="80dp"
+		android:layout_height="40dp"
 		android:text=""
 		android:layout_gravity="center_horizontal"
 		android:gravity="center"/>
@@ -96,7 +88,7 @@
 	<TextView
 		android:id="@+id/spaci12333"
 		android:layout_width="match_parent"
-		android:layout_height="40dp"
+		android:layout_height="22dp"
 		android:text=""
 		android:layout_gravity="center_horizontal"
 		android:gravity="center"/>
@@ -112,7 +104,7 @@
 	<TextView
 		android:id="@+id/textnota"
 		android:layout_width="35dp"
-		android:layout_height="25dp"
+		android:layout_height="23dp"
 		android:text=""
 		android:layout_gravity="center_horizontal"
 		android:gravity="center"/>
