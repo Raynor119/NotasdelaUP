@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
@@ -37,7 +42,7 @@
 		android:textColor="#FFFFFF"
 		android:background="@drawable/button_background"
 		android:layout_gravity="center_horizontal"
-		android:onClick="most"/>
+		/>
 
 	<TextView
 		android:id="@+id/espacio01"
@@ -55,7 +60,7 @@
 		android:textSize="19sp"
 		android:textAllCaps="false"
 		android:textColor="#FFFFFF"
-		android:onClick="digit"
+		
 		android:layout_gravity="center_horizontal"
 		android:text="Digitar Materias"/>
 
@@ -74,7 +79,7 @@
 		android:background="@drawable/button_background"
 		android:textSize="19sp"
 		android:textAllCaps="false"
-		android:onClick="pormeed"
+		
 		android:layout_gravity="center_horizontal"
 		android:text="Promedio del   Semestre"
 		android:textColor="#FFFFFF"/>
@@ -97,7 +102,7 @@
 		android:textAllCaps="false"
 		android:textColor="#FFFFFF"
 		android:layout_gravity="center_horizontal"
-		android:onClick="sali"/>
+		/>
 
 </LinearLayout>
-
+</FrameLayout>

@@ -45,6 +45,10 @@
         </activity>
         <activity android:name="com.pixels.cc.promed" >
         </activity>
+        <activity
+            android:name="com.pixels.cc.main"
+            android:theme="@style/AppTh" >
+        </activity>
     </application>
 
 </manifest>

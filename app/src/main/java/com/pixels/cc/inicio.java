@@ -14,7 +14,7 @@ import android.content.IntentSender;
 import com.pixels.cc.R;
 
 
-public class inicio extends Activity {
+public class inicio extends AppCompatActivity {
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +32,7 @@ public class inicio extends Activity {
                         finish();
                         break;
                     case 1:
-                       intent = new Intent(inicio.this, menu.class);
+                       intent = new Intent(inicio.this, main.class);
                         startActivity(intent);
                         finish();
                         break;

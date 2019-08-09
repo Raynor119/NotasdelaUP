@@ -86,7 +86,7 @@ EditText mater,credit;
       
         }
         public void sigu(View v){
-          Intent intent =new Intent(digitarmi.this,menu.class);
+          Intent intent =new Intent(digitarmi.this,main.class);
             startActivity(intent);
             finish();
         }
