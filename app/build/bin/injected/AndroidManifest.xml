@@ -7,7 +7,7 @@
 
 	<uses-sdk
 		android:minSdkVersion="14"
-		android:targetSdkVersion="27"/>
+		android:targetSdkVersion="21"/>
 
 	<application
 		android:allowBackup="true"
@@ -17,9 +17,13 @@
 		android:theme="@style/AppTheme">
 
 		<activity
-			android:name=".MainActivity"
-			android:label="Hoja de Vida"
-			android:theme="@style/AppTheme.NoActionBar">
+			android:name=".MainActivity">
+
+		</activity>
+
+		<activity
+			android:name=".inicio"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
 			<intent-filter>
 
@@ -34,13 +38,12 @@
 		</activity>
 
 		<activity
-			android:name=".inicio"
-			android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+			android:name=".digitarm">
 
 		</activity>
 
 		<activity
-			android:name=".digitarm">
+			android:name=".menu">
 
 		</activity>
 
